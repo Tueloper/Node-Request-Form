@@ -3,9 +3,60 @@
   <head>
     <title><%= title %></title>
     <link rel='stylesheet' href='/stylesheets/style.css' />
+    <link rel="stylesheet" href="css/bootstrap.min.css">
   </head>
   <body>
-    <h1><%= title %></h1>
-    <p>Welcome to <%= title %></p>
+    <div class="container">
+      <form class="form-style-9">
+      <ul class="personal-details">		
+          <li>
+              <ul class="column">			
+                  <li>
+                      <label for="Item">Item</label>
+                      <input id="Item" type="text" name="Item" class="field-style field-split25 align-left" placeholder="Detergent" />	
+                  </li>
+              </ul>
+          </li>
+          <li>
+              <ul class="column">			
+                  <li>
+                      <label for="Description">Description</label>
+                      <input id="Descriptionl" type="text" name="Description" class="field-style field-split25 align-left" placeholder="Description" />	
+                  </li>			
+              </ul>
+          </li>
+          <li>
+              <ul class="column">			
+                  <li>
+                      <label for="Unitcost">Unit Cost</label>
+                      <input id="Unitcost" type="text" name="Unitcost" class="field-style field-split25 align-left" placeholder="N 1000" />	
+                  </li>			
+              </ul>
+          </li>			
+          
+          <li>	
+              <ul class="column">			
+                  <li>
+                      <label for="TotalCost">Total Cost</label>
+                      <input id="TotalCost" type="text" name="TotalCost" class="field-style field-split25 align-left" placeholder="N 2000" />	
+                  </li>		
+              </ul>
+          </li>		
+      </ul>
+      <button type="button" class="add-row">+</button> 
+      <div class="submit-div">
+          <ul>
+              <li>
+                  <input type="submit" value="Submit" class="submit-btn" />
+              </li>
+          </ul>
+      </div>
+      </form>
+      </div>
+      <script src="./js/jquery.min.js"></script>
+      <script src="./js/bootstrap.min.js"></script>
+      <script src="js/popper.min.js"></script>
+      <script src="js/bootstrap.bundle.min.js"></script>
+      <script src="./app.js"></script>
   </body>
 </html>
