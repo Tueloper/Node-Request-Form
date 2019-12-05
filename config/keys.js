@@ -1,5 +1,5 @@
 module.exports = {
-  mongoURI: "mongodb://127.0.0.1:27017/tueLop_dev_db",
+  mongoURI: "mongodb://127.0.0.1:27017/form_dev_db",
   cookieKey: "Tue123123",
   redisUrl: "redis://127.0.0.1:6379",
   SECRET: "Tuenial9873",
